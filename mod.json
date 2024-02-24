@@ -1,0 +1,9 @@
+{
+"name": "infinite-logics",
+"displayName": "infinite/logics",
+"author": "Krita",
+"description": "adding best processors in sandbox",
+"version": "1",
+"minGameVersion": "145",
+"dependencies": []
+}
