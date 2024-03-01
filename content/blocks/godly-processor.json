@@ -1,0 +1,15 @@
+{
+	"type": "logicBlock"
+	"size": 1
+	"health": 10000
+	"maxInstructionScale": 1000
+	"instructionsPerTick": 6000
+	"maxInstructionsPerTick": 6000000
+	"range": 6000
+	"category": "logic"
+	"privileged": true
+	"BuildVisibility": "sandboxOnly"
+	"requirements": [
+		{"item": "silicon", "amount": 100 }
+	]
+}

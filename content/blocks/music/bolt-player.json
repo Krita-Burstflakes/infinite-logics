@@ -1,0 +1,28 @@
+{
+	"type": "PowerTurret"
+    "health": 10000
+    "size": 1
+    "requirements": [
+        {"item": "silicon", "amount": 50 }
+    ]
+    "reload": 10
+    "range": 10
+	"shootSound": "bolt"
+    "category": "logic"
+	"outlineColor": "222222"
+    "shootType": {
+        "type": "basicBulletType"
+        "lifetime": 2
+        "speed": 5
+        "damage": 50
+		"splashDamage": 100
+		"splashDamageRadius": 10
+		"trailColor": "83a0dd"
+		"frontColor": "6d6ad0"
+		"backColor": "6d6ad0"
+		"scaleLife": true
+		"trailChance": 3
+		"width": 8
+		"height": 8
+    }
+}    

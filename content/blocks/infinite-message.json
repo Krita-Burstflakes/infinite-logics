@@ -1,0 +1,11 @@
+{
+	"type": "MessageBlock"
+	"size": 1
+	"health": 10000
+	"maxTextLength": 65536
+	"maxNewLines": 65536
+	"category": "logic"
+	"requirements": [
+		{"item": "silicon", "amount": 10 }
+	]
+}

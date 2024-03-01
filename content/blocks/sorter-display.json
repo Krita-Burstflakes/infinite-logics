@@ -1,0 +1,10 @@
+{
+	"type": "sorter"
+	"size": 1
+	"health": 10000
+	"category": "logic"
+	"requirements": [
+		{"item": "silicon", "amount": 5 }
+		{"item": "metaglass", "amount": 10 }
+	]
+}

@@ -2,7 +2,7 @@
 	"type": "memoryBlock"
 	"size": 1
 	"health": 10000
-	"memoryCapacity": 8192
+	"memoryCapacity": 4096
 	"category": "logic"
 	"requirements": [
 		{"item": "silicon", "amount": 50 }
