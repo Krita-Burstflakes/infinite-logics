@@ -1,5 +1,4 @@
 {
-	"type": "PowerTurret"
     "health": 10000
     "size": 1
     "requirements": [

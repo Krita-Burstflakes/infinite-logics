@@ -1,5 +1,4 @@
 {
-	"type": "MessageBlock"
 	"size": 1
 	"health": 10000
 	"maxTextLength": 65536
