@@ -1,0 +1,54 @@
+{	
+	"health": 1400
+	"armor": 15
+	"speed": 3
+	"rotateSpeed": 5
+	"hitSize": 24
+	
+	"lightRadius": 90
+	"lightColor": "ffffff55"
+	
+	"outlineColor": "0c0c1d"
+	
+	"omniMovement": true
+	"legCount": 6
+	"legLength": 30
+	"legBaseOffset": 0
+	"legExtension": -5
+	"legSpeed": 4
+	"legSplashDamage": 25
+	"legSplashRange": 5
+	"buildSpeed": 1000
+	
+	"weapons": [	
+		{	
+		"name": "creation-turret"
+		"x": -6
+		"y": 0
+		"reload": true
+		"mirror": true
+		"rotate": false
+		"reload": 10
+		"shootSound": "missile"
+		"bullet": {
+			"type": "ArtilleryBulletType"
+			
+            "lifetime": "160"
+            "speed": "2"
+            "splashDamage": 150
+			"splashDamageRadius": 16
+			
+            "frontColor": "ffffff"
+            "backColor": "743eba"
+			"hitColor": "743eba"
+			"trailColor": "743eba"
+			
+			"trailEffect": "none"
+			"trailLength": 35
+			"trailWidth": 2	
+			
+			"despawnSound": "none"
+			}
+		}
+	]
+}

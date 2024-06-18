@@ -1,0 +1,99 @@
+{	
+	"health": 2500
+	"armor": 15
+	"speed": 5
+	"drag": 0.1
+	"accel": 0.4
+	"rotateSpeed": 24
+	"hitSize": 24
+	"flying": true
+	"lowAltitude": true
+	"omniMovement": true
+	"engineOffset": -2
+	"lightRadius": 90
+	"lightColor": "ffffff55"
+	"outlineColor": "0c0c1d"
+	"buildSpeed": 1000
+	
+	"weapons": [	
+		{	
+		"name": "hostile-turret"
+		"x": -6
+		"y": 0
+		"reload": true
+		"mirror": true
+		"rotate": false
+		"alwaysShooting": true
+		"reload": 5
+		"recoil": 0
+		"shootSound": "none"
+		"parts": [
+			{
+				"type": "regionPart"
+				"suffix": "-rotor"
+				"progress": "reload"
+				"moveRot": 1800
+				"x": 0
+				"y": 0
+				"layerOffset": -0.001
+			}
+			{
+				"type": "regionPart"
+				"suffix": "-glow"
+				"blending": "additive"
+				"color": "743eba"
+				"outline": false 
+				"mirror": false
+				"progress": "reload"
+				"moveRot": 1800
+				"x": 0
+				"y": 0
+				"layerOffset": -0.0005
+			}
+		]
+		"bullet": {
+			"type": "basicBulletType"
+            "lifetime": "1"
+            "speed": "10"
+            "damage": "5"
+			"recoil": 0
+            "frontColor": "00000000"
+            "backColor": "00000000"
+			"shootEffect": "none"
+			"despawnEffect": "none"
+			"hitEffect": "none"
+			"smokeEffect": "none"
+			"height": 8
+			"width": 8
+			}
+		}
+		{	
+			"name": "hostile-turret"
+			"under": true
+			"rotate": false
+			"reload": 20
+			"x": 0
+			"y": 0
+			"recoil": 10
+			"layerOffset": -0.001
+			"loopSound": "none"
+			"shootSound": "none"
+			"ejectEffect": "none"
+			"bullet": {
+				"recoil": -15
+				"type": "basicBulletType"
+				"lifetime": 100
+				"speed": 100
+				"damage": 0
+				"frontColor": "00000000"
+				"backColor": "00000000"
+				"shootEffect": "none"
+				"despawnEffect": "none"
+				"hitEffect": "none"
+				"smokeEffect": "none"
+				"height": 0
+				"width": 0
+			}
+		}
+	]
+}

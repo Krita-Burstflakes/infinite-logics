@@ -1,0 +1,12 @@
+{
+	"size": 1
+	"health": 10000
+	"maxSides": 32
+	"displaySize": 64
+	"scaleFactor": 0.5
+	"category": "logic"
+	"requirements": [
+		{"item": "silicon", "amount": 200 }
+		{"item": "metaglass", "amount": 150 }
+	]
+}

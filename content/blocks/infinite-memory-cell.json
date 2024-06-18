@@ -1,7 +1,7 @@
 {
 	"size": 1
 	"health": 10000
-	"memoryCapacity": 4096
+	"memoryCapacity": 16384
 	"category": "logic"
 	"requirements": [
 		{"item": "silicon", "amount": 50 }
